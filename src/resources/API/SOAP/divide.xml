@@ -1,0 +1,11 @@
+<x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:tem="http://tempuri.org/">
+    <x:Header/>
+    <x:Body>
+        <tem:Divide>
+            <tem:intA>{number1}</tem:intA>
+            <tem:intB>{number2}</tem:intB>
+        </tem:Divide>
+    </x:Body>
+</x:Envelope>
