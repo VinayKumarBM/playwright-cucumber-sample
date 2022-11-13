@@ -1,3 +1,5 @@
+[![Test Execution](https://github.com/VinayKumarBM/playwright-cucumber-sample/actions/workflows/main.yml/badge.svg)](https://github.com/VinayKumarBM/playwright-cucumber-sample/actions/workflows/main.yml)
+<br>
 # playwright-cucumber-sample
 
 ## **Overview:**
