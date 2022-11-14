@@ -1,7 +1,7 @@
 @soap @calculator
 Feature: Scenarios related to Calculator SOAP service
 
-    @regression @sanity @add
+    @regression @sanity @add @ignore
     Scenario Outline: Verify ADD SOAP service
         When user adds two numbers <number1> and <number2> in the calculator
         Then user should get a status code 200

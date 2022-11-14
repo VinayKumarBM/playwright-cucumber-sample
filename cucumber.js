@@ -17,6 +17,7 @@ let options = [
     `--parallel=${process.env.PARALLEL_THREAD}`,
     `--format-options '{"snippetInterface":"async-await"}'`,
     `--retry=${process.env.RETRIES}`,
+    `--tags "not @ignore"`,
 ].join(' ');
 
 let runner = [

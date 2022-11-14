@@ -20,6 +20,7 @@ For Demo purpose web UI test cases are created on [ecommerce-playground.lambdate
 - Supports running scenarios in parallel mode. It runs 2 scenarios in parallel by default.
 - Flaky scenario can be Retried multiple times until either it passes or the maximum number of attempts is reached. You can enable this via the retry configuration option.
 - Supports rerun of the failed scenarios.
+- Scenarios can be easily skipped by adding @ignore tag to scenarios
 - Supports dry run of scenarios this helps to identifies the undefined and ambiguous steps.
 - Has utility built in for file download, Read PDF files etc.
 - Generates Cucumber HTML Report & HTML Report.
