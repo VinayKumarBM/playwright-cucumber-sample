@@ -96,5 +96,5 @@ Execution log will be present in the log file.
 ```sh
 test-results/logs/execution.log
 ```
-##  ##
-**:pencil: If you find my work interesting don't forget to give a Star :star: & Follow me :busts_in_silhouette:**
+##  Before you Go
+**:pencil: If you find my work interesting don't forget to give a Star <g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji> & Follow me :busts_in_silhouette:**
