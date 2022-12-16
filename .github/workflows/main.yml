@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies    
       run: npm ci
     - name: Test execution
-      run: npm run test:tags @validSearch
+      run: npm run test:tags @sanity
     - name: Upload test results
       if: always()
       uses: actions/upload-artifact@v3
