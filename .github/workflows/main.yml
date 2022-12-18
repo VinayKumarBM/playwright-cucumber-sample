@@ -20,9 +20,9 @@ jobs:
         node-version: 16
         cache: 'npm'
     - name: Install dependencies    
-      run: npm run test:tags "@validSearch"
+      run: npm ci
     - name: Test execution
-      run: npm test
+      run: npm run test:tags "@validSearch"
     - name: Upload test results
       if: always()
       uses: actions/upload-artifact@v3
